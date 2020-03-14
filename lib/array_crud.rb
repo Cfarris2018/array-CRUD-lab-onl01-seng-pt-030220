@@ -6,16 +6,17 @@ def create_an_array
  ["chickens", "goats", "ducks", "lions"] 
 end
 
-def add_element_to_end_of_array 
-  ["wow", "I", "am", "really", "learning"]
+def add_element_to_end_of_array(array,element)
+  array = array.push(element)
 end 
-add_element_to_end_of_array << "arrays!"
 
 def add_element_to_start_of_array(array, element)
+  array = array.unshift(element)
  
 end
 
 def remove_element_from_end_of_array(array)
+  
 
 end
 
